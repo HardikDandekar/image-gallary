@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    width: 91%;
+    height: 90%;
+    border: 0.1vh solid gray;
+
+  
+}
+.div nav{
+    height: 6vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div nav .nav1{
+    display: flex;
+}
+.div nav .nav1 .circl1{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height: 2.2vh;
+    width: 2.2vh;
+    border-radius: 50%;
+    background-color: tomato;
+
+}
+
+.div nav .nav1 .circl2{
+    margin-right: 1vh;
+    height: 2.2vh;
+    width: 2.2vh;
+    border-radius: 50%;
+    background-color: rgb(94, 90, 90);
+
+}
+.div nav .nav1 .circl3{
+
+    height: 2.2vh;
+    width: 2.2vh;
+    border-radius: 50%;
+    background-color: rgb(43, 194, 43);
+
+}
+
+.nav2 input{
+    width: 40vw;
+    height: 4vh;
+    font-size: 2.5vh;
+}
+.nav3 i{
+    font-size: 5vh;
+    margin-right: 1vw;
+}
+
+.divNav{
+    height: 5vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dN1 i{
+    margin-left: 2vw;
+    font-size: 3vh;
+}
+.dN2 span{
+    margin-right: 3vw;
+}
+.dN2 button{
+    margin-right: 3vw;
+    width: 12vw;
+    height: 4vh;
+    border-radius: 2vh;
+ 
+    border: 0.1vh solid gray;
+
+} 
+.div-in{
+    width: 100%;
+    height: 88%;
+
+}
+.img1{
+    height: 50%;
+ 
+    display: flex;
+}
+.img1 img{
+    margin: 0.5vh;
+}
+.img2{
+    height: 50%;
+    display: flex;
+}
+.img2 img{
+    margin: 0.5vh;
+}
